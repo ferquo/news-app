@@ -1,0 +1,47 @@
+* {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+#news-container {
+    display: grid;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 600px;
+}
+
+#news-container>article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+#news-container>article:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+#news-container>article a {
+    text-decoration: none;
+    color: black;
+}
+
+#news-container>article img {
+    max-width: 100%;
+    height: auto;
+}
+
+#news-container>article span {
+    font-size: .75em;
+    color: #666;
+    float: right;
+}
